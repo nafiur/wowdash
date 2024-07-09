@@ -65,6 +65,9 @@
     <!-- main js -->
     <script src="{{ asset('/backoffice/assets/js/app.js') }}"></script>
     <script src="{{ asset('/backoffice/assets/js/homeOneChart.js') }}"></script>
+    <script>
+        let table = new DataTable('#dataTable');
 
+    </script>
 </body>
 </html>
